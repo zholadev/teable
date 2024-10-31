@@ -152,7 +152,7 @@ export const ViewListItem: React.FC<IProps> = ({ view, removable, isActive }) =>
                 onClick={() => {
                   setIsEditing(true);
                 }}
-                className="flex justify-start"
+                className="flex justify-start text-wrap"
               >
                 <Pencil className="size-3" />
                 {t('view.action.rename')}

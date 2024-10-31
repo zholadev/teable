@@ -116,7 +116,7 @@ export const BaseTrashPage = () => {
       tableColumns.push({
         accessorKey: 'id',
         header: t('actions.title'),
-        size: 80,
+        size: 140,
         cell: ({ row }) => {
           const trashId = row.getValue<string>('id');
           return (
